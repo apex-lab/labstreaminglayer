@@ -8,6 +8,10 @@ if(NOT EXISTS "${CMAKE_CURRENT_LIST_DIR}/LSL/liblsl/CMakeLists.txt")
 	Did you check out the liblsl submodule? For more information, see see
 	https://github.com/sccn/labstreaminglayer/blob/master/doc/Working-with-the-repository.md")
 endif()
+
+# ADDED BY JOHN
+find_package(Qt5 COMPONENTS Widgets)
+
 # add the liblsl build directory
 add_subdirectory(LSL/liblsl)
 
