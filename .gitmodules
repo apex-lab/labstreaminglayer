@@ -146,3 +146,6 @@
 [submodule "Apps/NeuroscanAcquire"]
 	path = Apps/NeuroscanAcquire
 	url = https://github.com/labstreaminglayer/App-NeuroscanAcquire.git
+[submodule "Apps/EGIAmpServer400"]
+	path = Apps/EGIAmpServer400
+	url = https://github.com/apex-lab/App-EGIAmpServer400.git
